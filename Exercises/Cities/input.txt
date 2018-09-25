@@ -1,0 +1,23 @@
+================ PROJETO - DISTÂNCIA ENTRE DUAS CIDADES ===================
+
+OBJETIVO
+
+- Fornecer webservice que retorna lista com combinação de pares de cidades e distância entre elas.
+
+====================================================================
+
+REQUISITOS
+
+- webservice RESTful; 
+- Java 7 ou superior; 
+- Tomcat 7 ou superior; 
+- Parâmetro obrigatório para definir a unidade de medida (km / mi); 
+- Parâmetro obrigatório para definir o formato de resposta (xml / json); 
+- Banco de dados do MySQL com apenas uma tabela (CITY [id, name, latitude, longitude]) e com um mínimo de 3 registros; 
+- Use apenas acesso via JDBC - Não use framework de persistência, pool de conexões ou similares. 
+- Você pode pesquisar na web pelo método de cálculo de distância, mas precisa justificar sua escolha. 
+- Justifique o método de combinação implementado com foco em desempenho e simplicidade. 
+- Entregue dois arquivos de texto com o projeto README.TXT e LEIAME.TXT contendo as justificativas, scripts e observações em inglês e português, respectivamente. 
+- O projeto deve ser entregue com o código fonte no arquivo war.
+
+====================================================================
